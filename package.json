@@ -2,11 +2,14 @@
   "name": "ta11y",
   "title": "Ta11y",
   "version": "0.0.0",
-  "description": "Project WIP Placeholder",
+  "description": "A command-line interface based on Pa11y for generating accessibility issue reports.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jose Orihuela",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "pa11y": "^4.11.0"
+  }
 }
