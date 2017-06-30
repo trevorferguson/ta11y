@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    ["transform-strict-mode", {
+      "strict": true
+    }]
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 9"
+          ]
+        },
+        "modules": "commonjs"
+      }
+    ]
+  ]
+}

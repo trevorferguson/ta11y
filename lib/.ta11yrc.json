@@ -1,0 +1,37 @@
+{
+  "concurrency": 2,
+  "sitemap": "sitemap.xml",
+  "pa11y": {
+    "actions": {},
+    "allowedStandards": [
+      "Section508",
+      "WCAG2A",
+      "WCAG2AA"
+    ],
+    "hideElements": "",
+    "htmlcs": "http://squizlabs.github.io/HTML_CodeSniffer/build/HTMLCS.js",
+    "page": {
+      "settings": {
+        "loadImages": false,
+        "userName": "",
+        "password": ""
+      }
+    },
+    "phantom": {
+      "port": 9090,
+      "parameters": {
+        "ignore-ssl-errors": true,
+        "ssl-protocol": "tlsv1"
+      }
+    },
+    "rootElement": null,
+    "rules": [],
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "viewport": {
+      "width": 1024,
+      "height": 768
+    },
+    "wait": 500
+  }
+}
