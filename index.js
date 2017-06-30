@@ -20,6 +20,4 @@
  * SOFTWARE.
  */
 
-'use strict';
-
 module.exports = {};

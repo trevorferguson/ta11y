@@ -5,11 +5,21 @@
   "description": "A command-line interface based on Pa11y for generating accessibility issue reports.",
   "main": "index.js",
   "scripts": {
+    "babel-node": "babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jose Orihuela",
+  "contributors": [
+
+  ],
   "license": "MIT",
   "devDependencies": {
-    "pa11y": "^4.11.0"
+    "async": "^2.5.0",
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "pa11y": "^4.11.0",
+    "xml2js": "^0.4.17",
+    "yargs": "^8.0.2"
   }
 }
