@@ -55,3 +55,4 @@ coverage/
 # Compass/Sass - Add Compass/Sass specific ignores here.
 ####################
 *.sass-cache
+/lib/sitemap.xml
